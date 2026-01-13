@@ -39,19 +39,21 @@ Clone the repository:
 git clone https://github.com/SparkleFrom0/nonSloth-OS.git
 
 cd nonSloth-OS
-
+```
 
 
 ## Build The Project
 
 ```bash
 
-* make 
+make
+
+```
 
 ```Run in QEMU
 
 qemu-system-i386 -drive format=raw,file=os.bin
-
+```
 
 
 ## Usage
