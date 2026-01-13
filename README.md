@@ -49,7 +49,6 @@ make
 qemu-system-i386 -cdrom nonSlothOS.iso
 ```
 
-
 ## Usage
 
 When you run the OS, you should see a boot message followed by kernel output on the screen.
