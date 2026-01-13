@@ -53,3 +53,20 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# OS project specific build outputs
+*.bin
+*.iso
+*.img
+*.lst
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
