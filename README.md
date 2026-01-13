@@ -1,8 +1,8 @@
-\# nonSloth-OS
+# nonSloth-OS
 
 
 
-\## Description
+## Description
 
 nonSloth-OS is a minimal operating system project created for learning and experimentation purposes.  
 
@@ -10,7 +10,7 @@ The goal is to understand how computers boot, how kernels work, and how low-leve
 
 
 
-\## Features
+## Features
 
 * Custom bootloader that prints a startup message
 * Simple kernel written in C and Assembly
@@ -30,7 +30,7 @@ To build and run this project you need:
 
 
 
-\## Installation / Build Instructions
+## Installation / Build Instructions
 
 Clone the repository:
 
@@ -42,7 +42,7 @@ cd nonSloth-OS
 
 
 
-\## Build The Project
+## Build The Project
 
 ```bash
 
@@ -54,7 +54,7 @@ qemu-system-i386 -drive format=raw,file=os.bin
 
 
 
-\## Usage
+## Usage
 
 When you run the OS, you should see a boot message followed by kernel output on the screen.
 
@@ -62,7 +62,7 @@ This confirms that the bootloader and kernel are working together.
 
 
 
-\## Contributing
+## Contributing
 
 This project is primarily for educational purposes, but contributions are welcome.
 
@@ -70,7 +70,7 @@ Feel free to open issues or submit pull requests.
 
 
 
-\## License
+## License
 
 This project is licensed under the GPL v3 License.
 
