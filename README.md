@@ -14,7 +14,7 @@ The goal is to understand how computers boot, how kernels work, and how low-leve
 
 * GRUB-based bootloader that prints a startup message
 * Simple kernel written in C and Assembly
-* VGA text output (Hello World on screen)
+* VGA text output (prints "Hello to nonSloth-OS!"(bright green) on screen)
 * Planned: memory management, file system support, multitasking
 
 
@@ -55,6 +55,7 @@ When you run the OS, you should see a boot message followed by kernel output on 
 Currently, kernel prints:
 ```
 Hello to nonSloth-OS!
+
 ```
 
 This confirms that the bootloader and kernel are working together.

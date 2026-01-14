@@ -9,9 +9,3 @@
 .long MAGIC
 .long FLAGS
 .long CHECKSUM
-
-.section .text
-.global _start
-_start:
-    call kernel_main
-1:  jmp 1b
